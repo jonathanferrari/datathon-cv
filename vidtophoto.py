@@ -56,7 +56,7 @@ def create_folder(folder_name):
 
 if __name__ == "__main__":
     # Replace 'input_video.avi' with the path to your input video file
-    folder_path = 'video_sequence'
+    folder_path = 'data/mTBI/video_sequence'
 
     # Iterate through all files in the folder
     for filename in os.listdir(folder_path):
@@ -68,7 +68,7 @@ if __name__ == "__main__":
             print(f"Processing file: {filename}")
             
             # Example: Print the contents of each file
-            new_folder = "output_" + filename
+            new_folder = "data/mTBI/video_frames/" + "output_" + filename
             create_folder(new_folder)
             video_to_frames(file_path, new_folder)
         
