@@ -1,0 +1,2 @@
+snr,num_saccades,max_amp[deg],min_amp[deg],ave_amp[deg],max_v[deg/s],min_v[deg/s],ave_v[deg],max_peak_v[deg/s],min_peak_v[deg/s],ave_peak_v[deg],saccade_frequency[Hz],drift_velocity[deg/s],drift_ratio,blink_count,directional_deviation[deg]
+0.797,13,0.525,0.137,0.261,9.333,4.630,6.006,13.273,5.117,7.417,1.300,0.771,0.946,4,5.862
