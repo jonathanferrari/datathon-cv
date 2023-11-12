@@ -160,4 +160,4 @@ cython_debug/
 #.idea/
 
 # ignore any file in a folder called video_sequence
-**/video_sequence/*
+**/video_frames/*
