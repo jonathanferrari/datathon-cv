@@ -161,3 +161,5 @@ cython_debug/
 
 # ignore any file in a folder called video_sequence
 **/video_frames/*
+
+**/.DS_Store
